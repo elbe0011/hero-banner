@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .banner {
   overflow: hidden;
   position: relative;
@@ -14,10 +18,25 @@ html {
 }
 
 .banner-text {
+  max-width: 750px;
+  min-width: 600px;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+h1 {
+  display: inline;
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-style: italic;
+  font-size: 2rem;
 }
 
 .img-flex {
