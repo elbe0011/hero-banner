@@ -26,12 +26,12 @@ body {
   transform: translateX(-50%);
 }
 
-h1 {
+h2 {
   display: inline;
   font-size: 4rem;
   margin: 0;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
 }
 
 p {
